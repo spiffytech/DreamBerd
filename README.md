@@ -204,6 +204,7 @@ func multiply (a, b) => a * b!
 fun subtract (a, b) => a - b!
 fn divide (a, b) => a / b!
 functi power (a, b) => a ** b!
+union abs (a) => a < 0 ? -a : a!
 ```
 
 ## Dividing by Zero
